@@ -1,4 +1,1 @@
-node {
-  def mvnHome = tool 'M3'
-  sh "${mvnHome}/bin/mvn -B clean install"
-}
+echo 'hello from Workflow'
