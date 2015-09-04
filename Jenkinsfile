@@ -1,3 +1,4 @@
 node {
-  echo 'Hello World 1'
+  def mvnHome = tool 'M3'
+  sh "${mvnHome}/bin/mvn clean install"
 }
