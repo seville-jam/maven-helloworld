@@ -1,3 +1,3 @@
 node {
-  sh 'mvn clean install'
+  echo 'Hello World 1'
 }
