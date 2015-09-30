@@ -1,1 +1,1 @@
-warn /[WARNING]/
+warn /\[WARNING\]/
