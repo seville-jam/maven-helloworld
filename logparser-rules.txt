@@ -1,2 +1,1 @@
-error /^At revision \d+$/
-warn /no change for/
+warn /[WARNING]/
