@@ -1,3 +1,6 @@
 node {
-  echo 'Hello World 6'
+  stage 'Checkout'
+  checkout scm
+  stage 'Build'
+  sh "${tool 'Maven 3.x'}/bin/mvn clean install"
 }
