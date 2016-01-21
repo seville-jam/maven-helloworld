@@ -1,4 +1,5 @@
 node {
+  echo 'Hello Seville JAM!'
   stage 'Checkout'
   checkout scm
   stage 'Build'
