@@ -1,3 +1,4 @@
+echo 'This is a new feature branch for amuniz'
 node {
   stage 'Checkout'
   checkout scm
