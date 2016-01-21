@@ -1,4 +1,5 @@
 node {
+  echo 'Otra ramita!'
   stage 'Checkout'
   checkout scm
   stage 'Build'
