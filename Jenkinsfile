@@ -1,3 +1,4 @@
+echo 'Hello, my name is Antonio!'
 node {
   stage 'Checkout'
   checkout scm
